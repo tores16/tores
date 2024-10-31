@@ -1,0 +1,105 @@
+* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Card Custom Styles */
+.card {
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.card-subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.card-price {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #007bff;
+}
+
+.card-price span {
+    font-size: 2rem;
+    color: #007bff;
+}
+.card-img-top {
+    height: 10%;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.life{
+    width: 415px;
+    height: 415px;
+}
+.nike{
+    width: 415px;
+    height: 415px;
+}
+.levity{
+    width: 415px;
+    height: 415px;
+}
+.niger{
+    width: 415px;
+    height: 415px;
+}
+.fancy{
+    width: 415px;
+    height: 415px;
+}
+.love{
+    width: 415px;
+    height: 415px;
+}
+.pent{
+    width: 415px;
+    height: 415px;
+}
+.nole{
+    width: 415px;
+    height: 415px;
+}
+.gay{
+    width: 415px;
+    height: 415px;
+}
+/* Spacing */
+.car-cards {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* input */
+.twin{
+    position: absolute;
+    color: black;
+    top: 50px;
+    left: 0;
+    transform: translatey(-50px);
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.15s ease;
+    text-align: center;
+}
